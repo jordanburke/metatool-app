@@ -28,8 +28,9 @@ services:
     env_file:
       - .env
     restart: always
-    expose:
+    ports:
       - '12007'
+      - '12005'
     environment:
       - NODE_ENV=production
     extra_hosts:
