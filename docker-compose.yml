@@ -30,7 +30,6 @@ services:
     restart: always
     ports:
       - '12007'
-      - '12005'
     environment:
       - NODE_ENV=production
     extra_hosts:
